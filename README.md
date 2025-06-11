@@ -25,3 +25,11 @@ This expression uses `\$` to display a dollar sign: $`\sqrt{\$4}`$
 To split <span>$</span>100 in half, we calculate $100/2$
 
 This is a piece of Liquid code: [{{ "hello, world !" | capitalize }}].
+
+This is some embedded HTML:
+<h1>Hello</h1>
+<ul>
+  <li><b>Item 1 is bold</b></li>
+  <li>Item 2</li>
+  <li><a href="#">Item 3 is a link</a></li>
+</ul>
