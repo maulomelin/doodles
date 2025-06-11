@@ -30,6 +30,22 @@ This is some embedded HTML:
 <h1>Hello</h1>
 <ul>
   <li><b>Item 1 is bold</b></li>
-  <li>Item 2</li>
+  <li class="done">Item 2 is styled</li>
   <li><a href="#">Item 3 is a link</a></li>
+  <li id="_id-foobar">Item 4 has javascript interactivity</li>
 </ul>
+<style>
+  .done {
+  color: darkseagreen;
+  text-decoration: line-through solid black 2px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+  $(function() {
+    $("#_id-foobar").on("click", doSomething);
+    function doSomething() {
+      console.log("Doing something here.");
+    }
+  });
+</script>
