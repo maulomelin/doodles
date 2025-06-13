@@ -75,8 +75,35 @@ gem install bundler       # Install the latest Bundler gem
 jekyll -v                 # Check version "4.4.1" or greater
 bundler -v                # Check version "2.6.9" or greater
 ```
+
 Code block identifier: console
 ```console
+### pseudo zsh script ###
+echo $0                   # Check shell "-zsh"
+$ setopt INTERACTIVE_COMMENTS
+# Install Homebrew (https://brew.sh/)
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+$ brew update               # Update Homebrew
+$ brew doctor               # Run diagnostics
+$ brew upgrade              # Upgrade all software packages
+$ brew install chruby       # Install Ruby tool
+$ brew install ruby-install # Install Ruby tool
+$ ruby-install ruby 3.4.1   # Install latest Ruby version supported by Jeckyll
+# Configure `zsh` shell to use `chruby` by default.
+$ echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.zshrc
+$ echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.zshrc
+$ echo "chruby ruby-3.4.1" >> ~/.zshrc
+$ source ~/.zshrc           # Relaunch terminal window if needed
+$ chruby                    # Check version "ruby-3.4.1"
+$ ruby -v                   # Check version "ruby 3.4.1"
+$ gem install jekyll        # Install the latest Jekyll gem
+$ gem install bundler       # Install the latest Bundler gem
+$ jekyll -v                 # Check version "4.4.1" or greater
+$ bundler -v                # Check version "2.6.9" or greater
+```
+
+Code block identifier: n/a
+```
 ### pseudo zsh script ###
 echo $0                   # Check shell "-zsh"
 $ setopt INTERACTIVE_COMMENTS
