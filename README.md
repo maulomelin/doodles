@@ -50,8 +50,8 @@ This is some embedded HTML:
   });
 </script>
 
-Code block identifier: shell-script
-```shell-script
+Code block identifier: shell
+```shell
 ### pseudo zsh script ###
 echo $0                   # Check shell "-zsh"
 setopt INTERACTIVE_COMMENTS
