@@ -51,30 +51,35 @@ This is some embedded HTML:
 </script>
 
 Code block with `shell filename.ext`
+
 ```shell filename.ext
 # Current shell
 echo $0
 ```
 
 Code block with `shell title="filename.ext"`
+
 ```shell title="filename.ext"
 # Current shell
 echo $0
 ```
 
 Code block with `shell {title="filename.ext"}`
+
 ```shell {title="filename.ext"}
 # Current shell
 echo $0
 ```
 
 Code block with `shell {filename.ext}`
+
 ```shell {filename.ext}
 # Current shell
 echo $0
 ```
 
 Code block with `shell:filename.ext`
+
 ```shell:filename.ext
 # Current shell
 echo $0
