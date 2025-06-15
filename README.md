@@ -5,6 +5,23 @@ This is a doodles file.
 
 :)
 
+    ```console
+    $ gh repo create
+    ? What would you like to do? Create a new repository on github.com from scratch
+    ? Repository name maulomelin.github.io
+    ? Repository owner maulomelin
+    ? Description 
+    ? Visibility Public
+    ? Would you like to add a README file? No
+    ? Would you like to add a .gitignore? No
+    ? Would you like to add a license? No
+    ? This will create "foobar" as a public repository on github.com. Continue? Yes
+    ✓ Created repository maulomelin/maulomelin.github.io on github.com
+    https://github.com/maulomelin/maulomelin.github.io
+    ? Clone the new repository locally? Yes
+    $
+    ```
+
 This sentence uses `$` delimiters to show math inline: $\sqrt{3x-1}+(1+x)^2$
 
 This sentence uses $\` and \`$ delimiters to show math inline: $`\sqrt{3x-1}+(1+x)^2`$
