@@ -5,8 +5,15 @@ This is a doodles file.
 
 :)
 
-## Specific filename
+## Specific language
+```
+def what?
+  42
+end
+```
+{: .language-ruby}
 
+## Specific filename
 ```sass
 @import
   "colors/light-typography",
