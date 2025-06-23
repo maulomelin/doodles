@@ -5,6 +5,29 @@ This is a doodles file.
 
 :)
 
+## Specific filename
+
+```sass
+@import
+  "colors/light-typography",
+  "colors/dark-typography";
+```
+{: file='_sass/jekyll-theme-chirpy.scss'}
+
+## Mathematics
+
+The mathematics powered by [**MathJax**](https://www.mathjax.org/):
+
+$$
+\begin{equation}
+  \sum_{n=1}^\infty 1/n^2 = \frac{\pi^2}{6}
+  \label{eq:series}
+\end{equation}
+$$
+
+We can reference the equation as \eqref{eq:series}.
+
+
 ```console
 $ gh repo create
 ? What would you like to do? Create a new repository on github.com from scratch
